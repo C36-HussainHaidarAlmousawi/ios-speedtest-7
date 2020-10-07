@@ -28,8 +28,8 @@ class ViewController: UIViewController {
             var vc = segue.destination as! nameViewController
             vc.fullName = self.text
             if text.count <= 2 {
-                let alert = UIAlertController(title: "لا تستعبط", message: "اكتب اسمك عدل", preferredStyle: .alert)
-                alert.addAction(UIAlertAction(title: "انشالله", style: .default, handler: nil))
+                let alert = UIAlertController(title: "😡لا تستعبط", message: "اكتب اسمك عدل", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "🌚انشالله", style: .default, handler: nil))
                 self.present(alert, animated: true, completion: nil)
             }
         }

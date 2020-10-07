@@ -7,7 +7,7 @@
  مو بس `Buttons` دائرية، `textField`  و `UIVIew` دائري بعد
  */
 
-/*
+
 import Foundation
 import UIKit
 
@@ -17,7 +17,7 @@ import UIKit
     }
     
     required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        super.init(coder: coder)
     }
     @IBInspectable
     var cornerRadius: CGFloat {
@@ -102,7 +102,7 @@ import UIKit
     }
     
     required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        super.init(coder: coder)
     }
     @IBInspectable
     var cornerRadius: CGFloat {
@@ -190,7 +190,7 @@ import UIKit
     }
     
     required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        super.init(coder: coder)
     }
     @IBInspectable
     var cornerRadius: CGFloat {
@@ -266,4 +266,4 @@ import UIKit
         }
     }
 }
-*/
+
